@@ -26,6 +26,7 @@ body {
     animation-play-state: running;
     -o-animation-timing-function: ease-in;
     background-color: var(--fadeTo-Color);
+    background-image: var(--ImageOne);
 }
 
 #myVideo {
@@ -44,6 +45,12 @@ body {
     bottom: 0;
     width: 1915px;
     height: 1000px;
+}
+
+@keyframes bgSlide {
+    0% {
+        background-image: var(--ImageOne);
+    }
 }
 
 .blur {
