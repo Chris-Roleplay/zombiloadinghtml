@@ -49,19 +49,7 @@ body {
 
 @keyframes bgSlide {
     0% {
-        background-image: var(--ImageOne), var(--ImageTwo);
-    }
-    20% {
-        background-image: var(--ImageTwo), var(--ImageThree);
-    }
-    40% {
-        background-image: var(--ImageThree), var(--ImageFour);
-    }
-    60% {
-        background-image: var(--ImageFour), var(--ImageFive);
-    }
-    80% {
-        background-image: var(--ImageFive), var(--ImageOne);
+        background-image: var(--ImageOne);
     }
 }
 
