@@ -237,7 +237,7 @@ p {
 #containerloadingtext {
     text-shadow: 2px 2px 5px var(--fadeTo-Color);
     position: absolute;
-    color: rgb(241, 235, 235);
+    color: rgb(255, 230, 230);
     top: 93.89%;
     left: 50%;
     transform: translate(-50%, -50%);
